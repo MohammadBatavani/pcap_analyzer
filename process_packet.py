@@ -15,7 +15,7 @@ def process_csv(file_name):
             elif row["ip.src"] in list(packet.keys()):
                 packet[row['ip.src']].append(row["frame.time_epoch"])
     return packet
-
+##To determine average arrival time of packets related to each links:
 def process_arrival_time_average(packet_dict):
     avgDict = {}
     for ip,time in packet_dict.items():
