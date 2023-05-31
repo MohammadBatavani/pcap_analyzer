@@ -1,5 +1,5 @@
 # Pcap_Analyzer
-Pcap analyzer is just used for analyzing multicast packer capture file to determine the best link.
+Pcap analyzer is just used for analyzing multicast packet capture file to determine the best link.
 ### How to use:
 You need to run the project by calling it in your command line:
 
